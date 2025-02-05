@@ -1,0 +1,42 @@
+
+.header-project {
+    .des_head {
+        z-index: 2;
+
+        @include media_768 {
+            padding-bottom: $margin-padding;
+            margin-left: 0;
+
+            .ml-auto {
+                margin-left: 0;
+            }
+        }
+    }
+
+    .link-project {
+        @include media_991 {
+            display: none;
+        }
+    }
+
+    .is-sub {
+        font-size: 14px;
+        line-height: 32px;
+
+        span {
+            margin-right: 15px;
+        }
+    }
+
+    .arrow {
+        margin-bottom: 20px;
+
+        .icon {
+            svg {
+                fill: $heading-color;
+                width: 18px;
+                rotate: 90deg;
+            }
+        }
+    }
+}

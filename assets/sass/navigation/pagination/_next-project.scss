@@ -1,0 +1,64 @@
+.next-project {
+  position: relative;
+  overflow: hidden;
+
+
+  .bg-containers {
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+  }
+
+  .box-title {
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.09);
+
+    span {
+      @include media_991 {
+        display: none;
+      }
+    }
+
+    .arrow {
+      .icon {
+        rotate: 90deg;
+      }
+
+      @include media_991 {
+        display: none;
+      }
+    }
+  }
+
+  .is-sub {
+    font-size: 14px;
+    line-height: 32px;
+
+    span {
+      margin-right: 15px;
+    }
+  }
+
+  .arrow {
+
+
+    .icon {
+      svg {
+        fill: $heading-color;
+        width: 18px;
+        rotate: 90deg;
+      }
+    }
+  }
+
+  .footer-personal {
+    bottom: 30px;
+
+    @include media_991 {
+      bottom: 0;
+      border-radius: 0;
+    }
+  }
+
+}

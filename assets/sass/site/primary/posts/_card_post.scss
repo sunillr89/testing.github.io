@@ -1,0 +1,21 @@
+
+.post-item {
+  border-top-right-radius: 0;
+
+  &.has-height {
+    height: 480px;
+
+  }
+
+  .content {
+      padding: 20px;
+
+      &.pb-0 {
+        padding-bottom: 0;
+      }
+      
+      .date {
+          font-size: 13px;
+      }
+  }
+}

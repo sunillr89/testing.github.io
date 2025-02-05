@@ -1,0 +1,26 @@
+
+.post-item {
+
+  .box-img {
+    height: 450px;
+  }
+
+  .content {
+    .sm-title-block {
+      font-size: 18px;
+    }
+      .date {
+          font-size: 13px;
+
+          &::after {
+            content: '--';
+            margin-left: 15px;
+          }
+      }
+
+      .cat {
+        font-size: 13px;
+
+      }
+  }
+}
